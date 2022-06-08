@@ -11,9 +11,9 @@ import requests
 TARGET_SHAPE = (299,299)
 
 preprocessLabelDict = {
-    "beignets": "",
+    "beignets": "pastry",
     "beef carpaccio": "carpaccio",
-    "croque madame": "",
+    "croque madame": "sandwich",
     "fried calamari": "calamari",
     "takoyaki": "dumplings",
     "spaghetti carbonara": "carbonara",
