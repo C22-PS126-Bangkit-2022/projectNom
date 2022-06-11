@@ -7,7 +7,7 @@ import base64
 import io
 import os
 import requests
-import tensorflow as tf
+# import tensorflow as tf
 
 # Google Cloud Library
 import googleapiclient.discovery
