@@ -18,8 +18,8 @@ PROJECT = "project-nom-351311"
 REGION = "asia-southeast1"
 
 TARGET_SHAPE = (299, 299)
-MODEL = tf.keras.model.load_model(
-    "preprocessing\model\checkpoint_icv3_30epochs.hdf5", compile=False)
+# MODEL = tf.keras.model.load_model(
+#     "preprocessing\model\checkpoint_icv3_30epochs.hdf5", compile=False)
 with open("./classes.txt") as file:
     lines = file.readlines()
     LABELS = [line.rstrip() for line in lines]
