@@ -197,7 +197,8 @@ def preprocessImage(request):
         TARGET_SHAPE, Image.LANCZOS).convert("RGB")
 
     # Get the prediction
-    data['label'], data['conf'] = runInference(decoded_image, MODEL, LABELS)
+    data['label'], data['conf'] = runInference(
+        decoded_image, 'nom_101class', LABELS)
 
     buffer = io.BytesIO()
     decoded_image.save(buffer, format="JPEG")
