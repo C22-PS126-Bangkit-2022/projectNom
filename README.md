@@ -15,7 +15,7 @@ Table of Contents
 
 To achieves a healthy life and dream body, a neatly structured meal tracking is important to keep track of fulfilled nutrition. We present an android application used to classify food items from images taken by users from their own mobile devices, return its prediction result and the nutrition facts, and log it into the applications. Now, users can neatly structured their meal everyday without hassle.
 
-## Backend/CLoud Computing Documentation
+## Backend/Cloud Computing Documentation
 
 1. Write the Django server app using Python
     - If you have local development purpose, save the model in the same directory as `manage.py`
