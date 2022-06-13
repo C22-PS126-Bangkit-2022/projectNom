@@ -7,7 +7,6 @@ This repository contains the backend code for Project Nom application. We're usi
 Table of Contents
 1. About the project
 2. Backend/Cloud Computing documentation
-3. Usage
 
 ---
 
